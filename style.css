@@ -1,0 +1,37 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-color: linear-gradient(to right top, #4c78e8, #3169d1, #254da3, #233496, #002394);
+}
+
+.header
+{
+	color: white;font-family: 'Comic Sans';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+
+#camera
+{
+    width: 500px;
+    height: 400px;
+    border-color: #002394;
+}
+
+.copy_right_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.img
+{
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+}
+img:hover{
+    border-radius: 140px;
+}
